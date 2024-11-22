@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -115,6 +116,10 @@ header nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 1.5em;
+}
+
+.komik-container p{
+  text-align: center;
 }
 
 .komik-card {
